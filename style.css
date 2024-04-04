@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: white;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    padding: 35px;
+    background-color: rgba(215, 193, 193, 0.361);
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 90px;
+}
+#nav a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 60px;
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    /* height: 100px; */
+    padding: 0 20% 0 20%;
+}
+
+#heroleft{
+    width: 50%;
+}
+
+#heroleft h1{
+    font-size: 50px;
+    font-weight: 750;
+    line-height: 60px;
+    color: rgba(23, 22, 22, 0.806);
+}
+#heroleft p{
+    padding-top: 20px;
+    font-size: 17.5px;
+    font-weight: 200;
+    color: gray;
+}
+#icon {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    /* position: absolute;
+    bottom: 70px;
+    right: 55px; */
+    /* font-size: 1px;    */
+    /* background-color: red; */
+  }
+  #icon i{
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 30px;
+    
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+    color: rgba(0, 0, 0, 0.804);
+  }
+#heroright{
+    width: 45%;
+    margin-top: -35px;
+    /* border-bottom: 2px solid; */
+}
+#heroright img{
+   height: 350px;
+   width: 350px;
+   border-radius: 45%;
+   border: 2px solid black;
+   /* background-image: url(IMG_8891.JPG); */
+   object-fit: cover;
+   /* object-position: center; */
+}
+#bottompart{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    padding: 0 20% 0 20%;
+    /* width: 100%; */
+    /* background-color: rebeccapurple; */
+    height: 100px;
+    gap: 60px;
+}
+#bottompart h4{
+    font-size: 18px;
+    color: rgb(84, 74, 74);
+    /* border-right: 2px solid black; */
+}
+#bottompart img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(178, 173, 184);
+}
+
