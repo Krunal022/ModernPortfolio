@@ -19,6 +19,7 @@ body {
 }
 
 #nav {
+    /* position: fixed; */
     width: 100%;
     padding: 35px;
     background-color: rgba(229, 229, 229, 0.361);
@@ -146,18 +147,63 @@ body {
     display: flex;
     width: 100%;
     height: 100vh;
-    background: #5e5c5cae;
-    padding: 0 70px;
+    /* background: #5e5c5cae; */
+    padding: 10% 15% 10% 15%;
 }
 
-#leftP {
+#leftA {
     width: 50%;
-    height: 100vh;
-    background-color: rebeccapurple;
+    /* height: 100vh; */
+    /* background-color: rebeccapurple; */
+}
+#leftA img{
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+    /* background-image: url(pankaj-patel-_SgRNwAVNKw-unsplash.jpg); */
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* background-color: rgb(182, 133, 230); */
 }
 
-#rightP {
-    width: 50%;
+#rightA {
+    margin-left: 80px;
+    padding: 40px 0;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: rgb(69, 21, 121); */
+}
+#rightA h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(53, 127, 206);
+    font-weight: 900;
+}
+#rightA h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+#rightA p{
+    line-height: 1.5;
+    color: gray;
+    font-size: 17.5px;
+    /* margin-top: 40px; */
+}
+
+#rightA .pOne{
+    margin-top: 40px;
+}
+#rightA .pTwo{
+    margin-top: 30px;
+}
+
+#ProjectSec{
+    width: 100%;
     height: 100vh;
-    background-color: rgb(69, 21, 121);
+    background-color: rgba(255, 0, 0, 0.242);
+    padding: 5% 20% 0 20%;
 }
