@@ -1,55 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="My personal portfolio." content="Front-end developer portfolio">
     <meta name="My personal portfolio." content="Front-end developer portfolio">
-    <meta name="description" content="Welcome to my developer portfolio! Explore a collection of my projects and web applications showcasing my expertise in building dynamic and interactive user interfaces. With a passion for clean code and innovative solutions, I strive to create seamless user experiences that blend functionality with stunning designs.">
+    <meta name="description"
+        content="Welcome to my developer portfolio! Explore a collection of my projects and web applications showcasing my expertise in building dynamic and interactive user interfaces. With a passion for clean code and innovative solutions, I strive to create seamless user experiences that blend functionality with stunning designs.">
     <title>Krunal W | Front-end Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> 
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="main">
-        
+
         <div id="nav">
             <div id="logo">
                 <h3>Krunal.dev</h3>
             </div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a class="nlink" href="#">Home</a>
+            <a class="nlink" href="#">About</a>
+            <a class="nlink" href="#">Projects</a>
+            <a class="nlink" href="#">Contact</a>
         </div>
 
         <div id="hero">
-            <div id="heroleft">
-                <h1>Front-End React <br> Developer👋🏻</h1>
-                <p>Hi, I'm Krunal Waghela. A passionate Front-end React 
+            <div id="herotext">
+                <h1>Front-End React </h1>
+                <h1>Developer </h1>
+                <img class="hand" src="HiFi.png" alt="HiFi">
+                <p>Hi, I'm Krunal Waghela. A passionate Front-end React
                     Developer based in Vadodara,India. 📍</p>
-                    <div id="icon">
-                        <a href="https://www.instagram.com/imkrunal_09/"><i class="ri-instagram-line"></i></a>
-                        <a href="https://www.google.com"><i class="ri-google-fill"></i></a>
-                    </div>
+                <div id="icon">
+                    <a href="https://www.linkedin.com/in/krunal-waghela-8aba82250/" target="_blank"> <i class="ri-linkedin-box-line"></i></a>
+                    <a href="https://github.com/Krunal022" target="_blank"> <i class="ri-github-line"></i></a>
+                </div>
             </div>
-            
+
             <div id="heroright">
                 <div id="imgdiv">
-                    <img src="P.JPG" alt="">
+                    <!-- <img src="P.JPG" alt="Krunal's photo"> -->
                 </div>
+            </div>
+
+        </div>
+
+        <div id="bottompart">
+            <h4>Tech Stack </h4>
+            <img src="https://skillicons.dev/icons?i=html,css" alt="">
+            <img src="https://skillicons.dev/icons?i=js,ts" alt="">
+            <!-- <img src="image.png" alt="">
+            <img src="image.png" alt=""> -->
+        </div>
+    
+        <div id="AboutSec">
+            <div id="leftP">
+                <h1>About Section Loading...
+                    
+                </h1>
+            </div>
+            <div id="rightP"></div>
+        </div>
+    
         </div>
         
-        </div>
-    </div>
-    <div id="bottompart">
-        <h4>Tech Stack  </h4>
-        <img src="image.png" alt="">
-        <img src="image.png" alt="">
-        <img src="image.png" alt="">
-        <img src="image.png" alt="">
-        <img src="image.png" alt="">
-    </div>
-    </div>
+
+        <!--  Gsap is needed for Basic Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+        <!-- Scroll Trigger is needed for Scroll Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+        <!-- Three.js is needed for 3d Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+        <!-- ControlKit is needed for Debug Panel -->
+        <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+        <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+        <script src="script.js"></script>
 </body>
+
 </html>
