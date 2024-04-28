@@ -120,8 +120,10 @@ body {
     border-radius: 45%;
     border: 2px solid black;
     background-image: url(P.jpg);
+    /* background-image: url(Krunalimg.webp); */
     background-size: cover;
     object-fit: cover;
+    background-position: 0% 60%;
 }
 
 #bottompart {
