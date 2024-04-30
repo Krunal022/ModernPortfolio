@@ -19,6 +19,7 @@
 <body>
     <div id="main">
 
+
         <div id="nav">
             <div id="logo">
                 <h3>Krunal.dev</h3>
@@ -47,8 +48,22 @@
                     <!-- <img src="P.JPG" alt="Krunal's photo"> -->
                 </div>
             </div>
-
         </div>
+
+        <div class="blob-cont">
+            <div class="yellow blob"></div>
+            <div class="red blob"></div>
+            <div class="green blob"></div>
+        </div>
+         
+    <svg>
+        <filter id='noiseFilter'>
+            <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
+            <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+            <feComposite operator="in" in2="SourceGraphic" result="monoNoise" />
+            <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
+        </filter>
+    </svg>
 
         <div id="bottompart">
             <h4>Tech Stack </h4>
