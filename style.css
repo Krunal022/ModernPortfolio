@@ -268,7 +268,7 @@ body::before {
 
 #heroright {
     width: 45%;
-    margin-top: -35px;
+    /* margin-top: -10px; */
 }
 
 #heroright #imgdiv {
@@ -280,7 +280,23 @@ body::before {
     /* background-image: url(Krunalimg.webp); */
     background-size: cover;
     object-fit: cover;
-    background-position: 0% 60%;
+    background-position: 00% 80%;
+
+    animation: morph 8s ease-in-out infinite;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
+}
+@keyframes morph{
+	0%{
+	  border-radius:60% 40% 30% 70% / 60% 30% 70% 40%
+	}
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
 }
 
 #heroright #imgdiv:hover {
@@ -301,6 +317,11 @@ body::before {
 #bottompart h4 {
     font-size: 18px;
     color: rgb(84, 74, 74);
+}
+
+#bottompart img:hover{
+    cursor: pointer;
+    /* webkitscr */
 }
 
 
