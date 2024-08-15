@@ -1,125 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="My personal portfolio." content="Front-end developer portfolio">
     <meta name="My personal portfolio." content="Front-end developer portfolio">
     <meta name="description" content="Welcome to my developer portfolio! Explore a collection of my projects and web applications showcasing my expertise in building dynamic and interactive user interfaces. With a passion for clean code and innovative solutions, I strive to create seamless user experiences that blend functionality with stunning designs.">
     <title>Krunal W | Front-end Developer</title>
     
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> 
-
+    <link rel="stylesheet" href="style2.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div id="main">
 
-
-        <div id="nav">
-            <div id="logo">
-                <h3>Krunal.dev</h3>
-            </div>
-            <a class="nlink" href="#">Home</a>
-            <a class="nlink" href="#AboutSec">About</a>
-            <a class="nlink" href="#ProjectSec">Projects</a>
-            <a class="nlink" href="#ContactSec">Contact</a>
-        </div>
-
-        <div id="hero">
-            <div id="herotext">
-                <h1>Front-End React </h1>
-                <h1>Developer </h1>
-                <img class="hand" src="HiFi.png" alt="HiFi">
-                <p>Hi, I'm Krunal Waghela. A passionate Front-end React
-                    Developer based in Vadodara,India. 📍</p>
-                <div id="icon">
-                    <a href="https://www.linkedin.com/in/krunal-waghela-8aba82250/" target="_blank"> <i class="ri-linkedin-box-line"></i></a>
-                    <a href="https://github.com/Krunal022" target="_blank"> <i class="ri-github-line"></i></a>
+        <div id="back">
+            <div class="blob-cont">
+                    <div class="yellow blob"></div>
+                    <div class="red blob"></div>
+                    <div class="green blob"></div>
                 </div>
-            </div>
+                
+            <svg>
+                <filter id='noiseFilter'>
+                    <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
+                    <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+                    <feComposite operator="in" in2="SourceGraphic" result="monoNoise" />
+                    <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
+                </filter>
+            </svg>
+        </div>
 
-            <div id="heroright">
-                <div id="imgdiv">
-                    <!-- <img src="P.JPG" alt="Krunal's photo"> -->
+        <div id="top">
+            
+            <div id="workingarea">
+
+                <div id="nav">
+                    <div id="logo">
+                        <h3>Krunal.dev</h3>
+                    </div>
+                    <div id="links">
+                        <a class="nlink" href="#">Home</a>
+                    <a class="nlink" href="#AboutSec">About</a>
+                    <a class="nlink" href="#ProjectSec">Projects</a>
+                    <a class="nlink" href="#ContactSec">Contact</a>
+                    </div>
+                    
                 </div>
-            </div>
-        </div>
 
-        <div class="blob-cont">
-            <div class="yellow blob"></div>
-            <div class="red blob"></div>
-            <div class="green blob"></div>
-        </div>
-         
-    <svg>
-        <filter id='noiseFilter'>
-            <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
-            <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-            <feComposite operator="in" in2="SourceGraphic" result="monoNoise" />
-            <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
-        </filter>
-    </svg>
-
-        <div id="bottompart">
-            <h4>Tech Stack </h4>
-            <img id="icn" src="https://skillicons.dev/icons?i=html,css" alt="">
-            <img id="icn" src="https://skillicons.dev/icons?i=js,ts" alt="">
-            <img id="icn" src="https://skillicons.dev/icons?i=java,python" alt="">
-            <!-- <img src="image.png" alt=""> -->
-        </div>
-    
-        <div id="AboutSec">
-            <div id="leftA">
-                <img src="About.jpg" alt="">
-                <!-- <h1>About Section Loading...</h1> -->
-            </div>
-            <div id="rightA">
-                <h2>About Me</h2>
-                <h1>Front-end Developer</h1>
-                <h1>based in Vadodara, India 📍</h1>
-                <p class="pOne">Hey,my name is Krunal, and I'm a Frontend Developer.My passion is create and develop a clean UI/UX for my users.</p>
-                <p class="pTwo">My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.</p>
-            </div>
-        </div>
-
-        <div id="ProjectSec">
-            <h1>New Projects coming soon..🤠</h1>
-        </div>
-
-        <div id="ContactSec">
-            <h3>CONTACT</h3>
-            <h1>Don't be shy! Hit me up! 👇🏻</h1>
-
-            <div id="Cs">
-                <div id="location">
-                        <h2>Location </h2>
-                        <h3>Vadodara, India</h3>
-                </div>
-                <div id="mail">
-                        <h2>Mail</h2>
-                        <h3>Krunalvaghela723@gmail.com</h3>
-                </div>
-            </div>
-
-        </div>
-
-        <footer>
-            <h3>Copyright ©️ 2024. All rights are reserved</h3>
-            <div id="ficon">
-                <a class="flink" href="https://www.linkedin.com/in/krunal-waghela-8aba82250/" target="_blank"> <i class="ri-linkedin-box-line"></i></a>
-                <a class="flink" href="https://github.com/Krunal022" target="_blank"> <i class="ri-github-line"></i></a>
-            </div>
-
-        </footer>
-
-        </div>
-
+                <div id="hero">
+                    <div id="heroleft">
+                        <h1>Front-End React </h1>
+                        <h1>Developer <span><img class="hand" src="HiFi.png" alt="HiFi"></span> </h1>
+                        <!-- <img class="hand" src="HiFi.png" alt="HiFi"> -->
+                        <p>Hi, I'm Krunal Waghela. A passionate Front-end React
+                            Developer based in Vadodara , India. 📍</p>
+                        <div id="icon">
+                            <a href="https://www.linkedin.com/in/krunal-waghela-8aba82250/" target="_blank"> <i class="ri-linkedin-box-line"></i></a>
+                            <a href="https://github.com/Krunal022" target="_blank"> <i class="ri-github-line"></i></a>
+                        </div>
+                    </div>
         
+                    <div id="heroright">
+                        <div id="imgdiv">
+                            <!-- <img src="P.JPG" alt="Krunal's photo"> -->
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <div id="bottompart">
+                    <h4>Tech Stack </h4>
+                    <img id="icn" src="https://skillicons.dev/icons?i=html,css" alt="">
+                    <img id="icn" src="https://skillicons.dev/icons?i=js,mysql" alt="">
+                    <img id="icn" src="https://skillicons.dev/icons?i=java,python" alt="">
+                    <img id="icn" src="https://skillicons.dev/icons?i=tailwindcss,react" alt="">
+                    <!-- <img src="image.png" alt=""> -->
+                </div>
+
+                <div id="AboutSec">
+                    <div id="About-img">
+                        <img src="About.jpg" alt="">
+                        <!-- <h1>About Section Loading...</h1> -->
+                    </div>
+                    <div id="About-content">
+                        <h2>About Me</h2>
+                        <h1>Front-end Developer</h1>
+                        <h1>based in Vadodara, India 📍</h1>
+                        <p class="pOne">~ Hey,my name is Krunal, and I'm a Frontend Developer.My passion is create and develop a clean UI/UX for my users.</p>
+                        <p class="pTwo">I am currently pursuing my bachelor's degree and immersing myself in various technologies. With this foundation, I am on a fast track to becoming a proficient software engineer.</p>
+                    </div>
+                </div>
+
+                <div id="ProjectSec">
+                    <h1>New Projects coming soon..🤠</h1>
+                </div>
+
+                <div id="ContactSec">
+                    <h3>CONTACT</h3>
+                    <h1>Don't be shy! Hit me up! 👇🏻</h1>
+        
+                    <div id="Cs">
+                        <div id="location">
+                                <h2>Location </h2>
+                                <h3>Vadodara, India</h3>
+                        </div>
+                        <div id="mail">
+                                <h2>Mail</h2>
+                                <h3>Krunalvaghela723@gmail.com</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <h3>i crafted this Portfolio with a lot of 💗 and care.</h3>
+                    <div id="ficon">
+                        <a class="flink" href="https://www.linkedin.com/in/krunal-waghela-8aba82250/" target="_blank"> <i class="ri-linkedin-box-line"></i></a>
+                        <a class="flink" href="https://github.com/Krunal022" target="_blank"> <i class="ri-github-line"></i></a>
+                    </div>
+        
+                </footer>
+
+
+            </div>
+        </div>
+    </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
