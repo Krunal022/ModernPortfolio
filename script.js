@@ -12,12 +12,12 @@ gsap.from(".nlink",{
   opacity:0
 });
 
-Shery.textAnimate("#heroleft h1,.hand", {
-  style: 1,
-  y: 10,
-  delay: 0.1,
-  duration: .5,
-});
+// Shery.textAnimate("#heroleft h1,.hand", {
+//   style: 1,
+//   y: 10,
+//   delay: 0.1,
+//   duration: .5,
+// });
 
 Shery.makeMagnet(".nlink" ,{
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
