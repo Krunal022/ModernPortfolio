@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: neue machina;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 html,
@@ -13,6 +13,7 @@ body {
     scroll-behavior: smooth;
     cursor: crosshair;
 }
+
 :root {
     --bg: #dfb03b46;
     --text: #151515;
@@ -188,6 +189,7 @@ body::before {
     width: 100%;
     height: 100vh;
 }
+
 #workingarea {
     position: relative;
     margin: 0 auto;
@@ -195,7 +197,8 @@ body::before {
     /* cursor: crosshair; */
     /* height: 100%; */
 }
-#nav{
+
+#nav {
     width: 100%;
     background-color: rgba(229, 229, 229, 0.361);
     padding: 2vw 7vw;
@@ -205,11 +208,13 @@ body::before {
     /* gap: 3vw/; */
     box-shadow: 0 3px 17px rgb(135, 135, 135);
 }
-#nav #logo h3{
+
+#nav #logo h3 {
     font-family: Segoe Script;
 
 }
-#nav a{
+
+#nav a {
     margin-right: 1.2vw;
     font-weight: 600;
     color: black;
@@ -236,7 +241,8 @@ body::before {
     line-height: 60px;
     color: rgba(23, 22, 22, 0.806);
 }
-#heroleft span{
+
+#heroleft span {
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -245,13 +251,14 @@ body::before {
     margin-bottom: -12.5px;
     /* background-color: red; */
 }
-#hand{
+
+#hand {
     height: 4vw;
     width: 4vw;
     background-image: url(HiFi.png);
     background-size: cover;
     background-position: 0% 60%;
-    
+
 }
 
 /* #heroleft .hand {
@@ -276,7 +283,7 @@ body::before {
     color: gray;
 }
 
- #icon {
+#icon {
     /* background-color: rebeccapurple; */
     display: flex;
     gap: 15px;
@@ -320,18 +327,22 @@ body::before {
     background-repeat: no-repeat;
     transition: all 1s ease-in-out;
 }
-@keyframes morph{
-	0%{
-	  border-radius:60% 40% 30% 70% / 60% 30% 70% 40%
-	}
-    50%{
-      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%
     }
-    100%{
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 
 }
+
 #bottompart {
     height: 100px;
     width: 100%;
@@ -350,7 +361,7 @@ body::before {
     color: rgb(84, 74, 74);
 }
 
-#bottompart img:hover{
+#bottompart img:hover {
     cursor: pointer;
     /* webkitscr */
 }
@@ -367,14 +378,14 @@ body::before {
     /* height: 100vh; */
     padding: 12% 10% 5% 10%;
     gap: 5vw;
-  }
-  
-  /* #About-img {
+}
+
+/* #About-img {
     width: 50%;
     background-color: red;
   } */
-  
-  #About-img img {
+
+#About-img img {
     background-color: rebeccapurple;
     width: 450px;
     height: 400px;
@@ -382,49 +393,49 @@ body::before {
     background-size: cover;
     background-position: center;
     object-fit: cover;
-  }
-  
-  #About-img img:hover {
+}
+
+#About-img img:hover {
     cursor: pointer;
-  }
-  
-  #About-content {
+}
+
+#About-content {
     /* margin-left: 80px; */
     /* background-color: red; */
     /* padding: ; */
     width: 100%;
     /* height: 60vh; */
-  }
-  
-  #About-content h2 {
+}
+
+#About-content h2 {
     text-transform: uppercase;
     margin-bottom: 1.58vw;
     font-size: 1.47vw;
     color: rgb(53, 127, 206);
     font-weight: 900;
-  }
-  
-  #About-content h1 {
+}
+
+#About-content h1 {
     font-size: 2vw;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.774);
-  }
-  
-  #About-content p {
+}
+
+#About-content p {
     line-height: 1.5;
     color: gray;
     font-size: 17.5px;
-  }
-  
-  #About-content .pOne {
+}
+
+#About-content .pOne {
     margin-top: 2vw;
-  }
-  
-  #About-content .pTwo {
+}
+
+#About-content .pTwo {
     margin-top: 2vw;
-  }
-  
-  #ProjectSec {
+}
+
+#ProjectSec {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -432,12 +443,12 @@ body::before {
     width: 100%;
     height: 40vh;
     padding: 5% 20% 0 20%;
-  }
-  
-  #ProjectSec h1 {
+}
+
+#ProjectSec h1 {
     color: rgba(0, 0, 0, 0.639);
-  }
-  
+}
+
 #ContactSec {
     width: 100%;
     height: 50vh;
@@ -506,34 +517,40 @@ footer .flink:hover {
 
 
 @media (max-width:600px) {
-    body{
+    body {
         font-family: neue machina;
     }
-    #nav{
+
+    #nav {
         height: 40px;
         padding: 1vw 5vw;
         align-items: center;
         display: flex;
     }
-    #logo h3{
+
+    #logo h3 {
         font-weight: 600;
         font-size: 2.5vw;
     }
-    #nav a{
+
+    #nav a {
         font-size: 2.3vw;
         margin-right: 3vw;
     }
-    #hero{
+
+    #hero {
         padding: 0 5vw;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         align-items: center;
         display: flex;
     }
-    #heroleft{
+
+    #heroleft {
         /* background-color: rebeccapurple; */
         width: 100%;
     }
-    #heroleft span{
+
+    #heroleft span {
         display: inline-block;
         /* margin: 0 10px; */
         /* border-radius: 100px; */
@@ -541,7 +558,8 @@ footer .flink:hover {
         margin-bottom: -5.5px;
         /* background-color: red; */
     }
-    #hand{
+
+    #hand {
         height: 6vw;
         width: 6vw;
         text-align: center;
@@ -549,57 +567,66 @@ footer .flink:hover {
         background-image: url(HiFi.png);
         background-size: cover;
         background-position: 0% 60%;
-        
+
     }
-    #heroleft h1{
+
+    #heroleft h1 {
         text-align: center;
         line-height: 9vw;
         font-size: 5vw;
     }
-    #heroleft p{
+
+    #heroleft p {
         /* text-align: center; */
         line-height: 5vw;
         font-size: 3.2vw;
     }
-    #heroleft i{
+
+    #heroleft i {
         text-align: center;
         line-height: 5vw;
         font-size: 6vw;
         /* margin-left: 5vw; */
     }
-    
-    #heroleft span .hand{
+
+    #heroleft span .hand {
         width: 8vw;
         height: 8vw;
-       
+
     }
-    #heroright{
+
+    #heroright {
         /* background-color: rebeccapurple; */
         justify-content: center;
         align-items: center;
         display: flex;
         width: 100%;
-        padding:5vw 3vw;
+        padding: 5vw 3vw;
     }
-    #heroright #imgdiv{
+
+    #heroright #imgdiv {
         /* text-align: center; */
         height: 50vw;
         width: 50vw;
     }
-    #bottompart{
+
+    #bottompart {
         height: 100px;
         width: 100%;
         padding: 0 7vw;
         gap: 30px;
     }
-    #bottompart img{
+
+    #bottompart img {
         width: 50px;
         height: 50px;
     }
-    #bottompart h4{
+
+    #bottompart h4 {
         font-size: 3vw;
     }
-    #AboutSec{
+
+    #AboutSec {
         padding: 7vh 3vw;
         display: flex;
         flex-direction: column;
@@ -607,34 +634,41 @@ footer .flink:hover {
         /* justify-content: flex-end; */
         align-items: flex-end;
     }
-    #About-img{
+
+    #About-img {
         width: 100%;
     }
-    #About-img img{
+
+    #About-img img {
         width: 80vw;
         height: 55vw;
     }
-    #About-content{
+
+    #About-content {
         padding: 3vw;
         width: 100%;
         /* height: 30vh; */
         /* background-color: red; */
         /* margin-bottom: vw; */
     }
-    #About-content h2{
+
+    #About-content h2 {
         width: 100%;
         font-size: 4.1vw;
     }
-    #About-content h1{
+
+    #About-content h1 {
         width: 100%;
         font-size: 4.66vw;
     }
-    #About-content p{
+
+    #About-content p {
         width: 100%;
         font-size: 3.3vw;
         /* padding: 3vw; */
     }
-    #ProjectSec{
+
+    #ProjectSec {
         /* background-color: red; */
         width: 100%;
         height: 20vh;
@@ -643,21 +677,24 @@ footer .flink:hover {
         justify-content: center;
         align-items: center;
         display: flex;
-    
+
     }
-    #ProjectSec h1{
+
+    #ProjectSec h1 {
         /* background-color: red; */
         font-size: 3.5vw;
-        text-wrap: nowrap;       
-        
+        text-wrap: nowrap;
+
     }
-    #ContactSec{
+
+    #ContactSec {
         padding: 5vw;
         width: 100%;
         height: 30vh;
         /* background-color: rebeccapurple; */
     }
-    #Cs{
+
+    #Cs {
         /* background-color: red; */
         padding: 3vw;
         width: 80%;
@@ -666,28 +703,35 @@ footer .flink:hover {
         align-items: center;
         justify-content: space-between;
     }
-    #ContactSec h3{
+
+    #ContactSec h3 {
         font-size: 4vw;
     }
-    #ContactSec h1{
+
+    #ContactSec h1 {
         font-size: 3vw;
     }
-    #Cs h2{
+
+    #Cs h2 {
         font-size: 2vw;
     }
-    #Cs h3{
+
+    #Cs h3 {
         font-size: 2vw;
     }
-    footer{
+
+    footer {
         width: 100%;
         height: 60px;
         padding: 1vw 4vw;
     }
-    footer h3{
+
+    footer h3 {
         font-weight: 400;
         font-size: 2.5vw;
     }
-    footer  .flink{
+
+    footer .flink {
         font-size: 3vw;
     }
 }
