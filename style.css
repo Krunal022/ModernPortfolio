@@ -276,7 +276,7 @@ body::before {
 #hand {
   height: 4vw;
   width: 4vw;
-  background-image: url(HiFi.png);
+  background-image: url(assets/Images/HiFi.png);
   background-size: cover;
   background-position: 0% 60%;
 }
@@ -321,7 +321,7 @@ body::before {
 }
 
 #icon i:hover {
-  color: #ce9e94;
+  color: rgb(43, 42, 42);
 }
 
 #heroright {
@@ -335,7 +335,7 @@ body::before {
   width: 350px;
   border-radius: 45%;
   border: 2px solid black;
-  background-image: url(P.jpg);
+  background-image: url(assets/Images/P.jpg);
   /* background-image: url(Krunalimg.webp); */
   background-size: cover;
   object-fit: cover;
@@ -402,7 +402,7 @@ body::before {
   } */
 
 #About-img img {
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   width: 450px;
   height: 400px;
   border-radius: 20px;
@@ -573,11 +573,12 @@ footer .flink:hover {
   }
 
   #hand {
+    /* background-color: rebeccapurple; */
     height: 6vw;
     width: 6vw;
     text-align: center;
     align-items: center;
-    background-image: url(HiFi.png);
+    background-image: url(assets/Images/HiFi.png);
     background-size: cover;
     background-position: 0% 60%;
   }
